@@ -1,0 +1,53 @@
+body{
+    background-image: url(/mountain2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+form{
+    position: relative;
+    max-width: 400px;
+    margin-top: 150px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(197, 195, 195);
+}
+.inputbox{
+    position: relative;
+    border-bottom: 1px solid white;
+}
+.inputbox input{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(171, 169, 169);
+}
+.inputbox label{
+    position: absolute;
+    left: 5px;
+    transform: translateY(-50%);
+}
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label{
+    top: -15px;
+}
+.register a{
+    text-decoration: none;
+}
+.checkbox a{
+    text-decoration: none;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+.checkbox a:hover{
+    text-decoration: underline;
+}
+button{
+    border-style: none;
+}
+button:hover{
+    box-shadow: 2px 2px 2px 3px white;
+}
+
